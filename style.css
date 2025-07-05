@@ -1,0 +1,64 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 5px;
+  background-color: #ffcb05;
+  color: #000;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+
+.container{
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.center img{
+    width: 150px;
+    height:auto;
+}
+
+.circle{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left:0;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
