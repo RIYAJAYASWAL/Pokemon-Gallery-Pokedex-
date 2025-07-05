@@ -7,6 +7,9 @@ A fun and interactive Pokémon Gallery web app that displays a collection of Pok
 
 🔍 Displays name, image, and type of each Pokémon
 
+# 🚀 Live Demo
+Click here to here to view the live demo ---> https://riyajayaswal.github.io/Pokemon-Gallery-Pokedex-/
+
 
 # 📷 Screenshot
 ![Screenshot 2025-07-05 195812](https://github.com/user-attachments/assets/818ceeac-f120-45ec-a0d4-e90866bd0f72)
